@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="style.css">
@@ -21,8 +22,10 @@
         <ul class="nav-links">
             <li class="link"><a href="#">Home</a></li>
             <li id="link1" class="link"><a href="#">Features</a></li>
-            <li id="link2" class="link"><a href="#">Pricing</a></li>
+            <li id="link2" class="link"><a href="#">Portfolio</a></li>
             <li id="link3" class="link"><a href="#">About</a></li>
+        
+
         </ul>
         <button class="btn">Hire Me</button>
     </nav>
@@ -32,16 +35,29 @@
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>WELCOME TO MY PORTFOLIO</h4>
-            <H1>Hi, I'm <span>Abdelrahman</span>, Android Developer</H1>
+            <H1>Hi, I'm Abdelrahman , <span class="multiText"></span>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typingEffect = new Typed(".multiText",{
+                    strings : ["Android Developer","Graphic Designer"],
+                    loop : true,
+                    typeSpeed : 80,
+                    backSpeed : 80,
+                    startDelay : 1000,
+                    backDelay : 500
+                })
+            </script>
+            </H1>
+        
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rem eos aliquid quo rerum
                 temporibus ipsum distinctio numquam ut omnis placeat, nam sint atque quos dolorem laborum? Rerum, esse
                 dolorem.
             </p>
-            <button class="btn">Get Started</button>
+            <a href ="images/CV.pdf"Download class="btn">Download CV</a>
         </div>
         <div class="image">
-            <img src="images/header.png">
+            <img src="images/header2.png">
         </div>
     </header>
 
@@ -49,10 +65,10 @@
         <h2 class="header">OUR FEATURES</h2>
         <div class="features">
             <div class="card">
-                <span><i class="ri-money-dollar-box-line"></i></span>
-                <h4>Free Tutorials</h4>
+                <span><i class="ri-android-line"></i></span>
+                <h4>Android Development</h4>
                 <p>
-                    My tutorials in my channel "AsmrProg" are free and you don't need to pay anything.
+                    I can develop Android applications, leveraging my expertise in Java or Kotlin.
                 </p>
                 <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
             </div>
@@ -65,10 +81,10 @@
                 <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
             </div>
             <div class="card">
-                <span><i class="ri-history-line"></i></span>
-                <h4>On Time Videos</h4>
+                <span><i class="ri-pen-nib-line"></i></span>
+                <h4>Graphic Designer</h4>
                 <p>
-                    We have video each 4 days, So check channel every 4 days to watch it!
+                    Proficient in graphic design, seamlessly blending creativity and technical skill.
                 </p>
                 <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
             </div>
@@ -84,73 +100,68 @@
     </section>
 
     <section class="container">
-        <h2 class="header">PROJECT PRICING PLANS</h2>
+        <h2 class="header">OUR PROJECTS</h2>
         <p class="sub-header">
-            Our pricing plans come with various membership tiers, each tailored to cater to different projects and
-            class+ code types.
+            Embark on a journey through my work—an exhibition that encapsulates my passion, creativity, and meticulous craftsmanship.
         </p>
         <div class="pricing">
             <div class="card">
                 <div class="content">
-                    <h4>Basic Plan</h4>
-                    <h3>0$</h3>
+                    <img src="images/project.png" />
+                    <h3>Brainwave AI App</h3>
                     <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
-                    </p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn">View Project</button>
             </div>
             <div class="card">
                 <div class="content">
-                    <h4>Gold Plan</h4>
-                    <h3>10$</h3>
+                    <img src="images/project2.png" />
+                    <h3>AR Museum App</h3>
                     <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Pro codes
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
-                    </p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn">View Project</button>
             </div>
             <div class="card">
                 <div class="content">
-                    <h4>Diamond Plan</h4>
-                    <h3>100$</h3>
+                    <img src="images/project3.png" />
+                    <h3>SnowShield App</h3>
                     <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Elite Classes & Courses
-                    </p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </p>
+                </div>
+                <button class="btn">View Project</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <img src="images/project4.png" />
+                    <h3>Game App</h3>
                     <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Pro codes
-                    </p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </p>
+                </div>
+                <button class="btn">View Project</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <img src="images/project5.png" />
+                    <h3>Sports News App</h3>
                     <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Personal Coaching
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn">View Project</button>
             </div>
+            <div class="card">
+                <div class="content">
+                    <img src="images/project6.png" />
+                    <h3>Movie App</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+                <button class="btn">View Project</button>
+            </div>
+            
         </div>
     </section>
 
